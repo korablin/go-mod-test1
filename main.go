@@ -9,17 +9,17 @@ import(
 
 func main() {
 	println("Running go-mod-test1")
-    println(runtime.Version())
+	println(runtime.Version())
 
-    buildInfo, ok := debug.ReadBuildInfo()
+	buildInfo, ok := debug.ReadBuildInfo()
 	if !ok {
-        fmt.Printf("%v", ok)
+        	fmt.Printf("%v", ok)
 		fmt.Println("Can't read BuildInfo")
 	}
 	fmt.Println("Dependencies:")
 	for _, dep := range buildInfo.Deps {
 		fmt.Printf("  %s %s\n", dep.Path, dep.Version)
 	}
-
+	
 	foo.Hello()
 }
