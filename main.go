@@ -13,13 +13,14 @@ func main() {
 
 	buildInfo, ok := debug.ReadBuildInfo()
 	if !ok {
-        	fmt.Printf("%v", ok)
+        fmt.Printf("%v", ok)
 		fmt.Println("Can't read BuildInfo")
 	}
+    fmt.Printf("buildInfo: %v", buildInfo)
 	fmt.Println("Dependencies:")
 	for _, dep := range buildInfo.Deps {
 		fmt.Printf("  %s %s\n", dep.Path, dep.Version)
 	}
-	
+
 	foo.Hello()
 }
