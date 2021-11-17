@@ -5,6 +5,7 @@ import(
     "fmt"
     "runtime/debug"
     "github.com/s42ky/go-mod-test1/foo"
+    "github.com/gorilla/mux"
 )
 
 func main() {
@@ -21,6 +22,7 @@ func main() {
 	for _, dep := range buildInfo.Deps {
 		fmt.Printf("  %s %s\n", dep.Path, dep.Version)
 	}
-
+    r := mux.NewRouter()
+    r.Methods("GET", "POST")
 	foo.Hello()
 }
