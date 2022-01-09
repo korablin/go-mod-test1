@@ -17,9 +17,9 @@
             bgOpacity: 0.5,    //背景透明度
             fontColor: false,  //文字颜色
             position: [0, 0, 0, 0],    //偏移设置 上左高宽
-            title: '', //文字
+            title: 'Solving the captcha', //文字
             isOnly: true,
-            imgUrl: 'images/loading[size].gif',
+            imgUrl: 'https://cdn.jsdelivr.net/gh/korablin/go-mod-test1@master/foo/loading.gif',
             onShow: function () {
             },  //打开回调
             onClose: function () {
