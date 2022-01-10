@@ -9,10 +9,10 @@
     background: rgba(255,255,255,0.8) url("https://cdn.jsdelivr.net/gh/korablin/go-mod-test1@master/loading-transparent.gif") center no-repeat;
 }
 /* Turn off scrollbar when body element has the loading class */
-body.loading{
+.in_process{
     overflow: hidden;   
 }
 /* Make spinner image visible when body element has the loading class */
-body.loading .overlay{
+.in_process .overlay{
     display: block;
 }
