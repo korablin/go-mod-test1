@@ -1,0 +1,67 @@
+.in_process {
+  /*   background-image: url("https://media4.giphy.com/media/5n0696u1rh2ev66ap3/giphy.gif"); */
+  background-image: url("https://acegif.com/wp-content/uploads/loading-38.gif");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+/*   filter: blur(2px);
+  -webkit-filter: blur(2px); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.error {
+  /*   background-image: url("https://media4.giphy.com/media/5n0696u1rh2ev66ap3/giphy.gif"); */
+  background-image: url("https://acegif.com/wp-content/uploads/loading-38.gif");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+/*   filter: blur(2px);
+  -webkit-filter: blur(2px); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.solved {
+  /*   background-image: url("https://media4.giphy.com/media/5n0696u1rh2ev66ap3/giphy.gif"); */
+  background-image: url("https://acegif.com/wp-content/uploads/loading-38.gif");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+/*   filter: blur(2px);
+  -webkit-filter: blur(2px); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.antigate_solver {
+  /*   background-image: url("https://media4.giphy.com/media/5n0696u1rh2ev66ap3/giphy.gif"); */
+  background-image: url("https://acegif.com/wp-content/uploads/loading-38.gif");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+/*   filter: blur(2px);
+  -webkit-filter: blur(2px); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
