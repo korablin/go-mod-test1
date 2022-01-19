@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <title>
+        How to make a CSS glass/blur
+        effect work for an overlay?
+    </title>
+     
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ 
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+
+        }
+
+ 
+        body {
+            position: relative;
+            background: url(https://d31nhj1t453igc.cloudfront.net/cloudinary/2021/Dec/27/2IQ6jZbLsHNDBiq7I1lU.jpg);
+            background-attachment: fixed;
+            height: 100vh;
+
+        }
+        body {
+          	overflow-y: hidden; /* Hide vertical scrollbar */
+  			overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
+ 
+        .webqum .layout {
+            position: relative;
+            top: 0%;
+            left: 0%;
+            min-width: 60000px;
+            min-height: 60000px;
+            padding: 0%;
+            backdrop-filter: blur(3px);
+            color: rgb(255, 254, 254);
+        }
+        .webqum .content {
+        	padding-left: 255px;
+            padding-top: 100px;
+
+        }
+ 
+        .webqum .layout::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.5;
+            background: url(https://acegif.com/wp-content/uploads/loading-38.gif);
+            background-attachment: fixed;
+
+        }
+ 
+        .webqum .layout h2 {
+            position: relative;
+            overflow: hidden;
+        }
+ 
+        .webqum .layout p {
+            position: relative;
+            max-width: 400px;
+        }
+ 
+        .webqum {
+            position: absolute;
+            background: url(https://www.publicdomainpictures.net/pictures/30000/nahled/solid-green-background.jpg);
+        }
+        
+    </style>
+</head>
+
+<div class="webqum">
+    <div class="layout">
+        <div class="content">
+        <h2>Logging in progress</h2>
+        <p>
+           Webqum is solving the captcha
+        </p>
+        </div>
+    </div>
+</div>
+
+<body>
+                <button class="btn btn-outline-danger">
+                Button
+            </button>
+
+                <button class="btn btn-outline-danger">
+                Button
+            </button>
+</body>
+ 
+</html>
